@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {getBanner, getHomeIntro} from '@/api'
+import {getBanner} from '@/api'
 
 const intro = ref()
 onLoad(async () => {
